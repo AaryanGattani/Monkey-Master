@@ -51,6 +51,9 @@ invisibleG.visible=false;
 function draw() {
   background(400);
   
+  camera.position.x = MONKEYs.x
+camera.position.y = 200
+  
 MONKEYs.velocityY=MONKEYs.velocityY+0.2;  
   MONKEYs.collide(invisibleG);
   
